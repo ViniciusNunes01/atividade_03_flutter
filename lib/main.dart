@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:galeria_onboarding/screens/catalog_screen.dart';
 import 'screens/flutter_splash_screen.dart';
 import 'screens/onboarding_screen.dart';
 import 'screens/welcome_screen.dart';
@@ -23,6 +24,7 @@ class GaleriaOnboardingApp extends StatelessWidget {
         '/': (context) => const FlutterSplashScreen(),
         '/onboarding': (context) => const OnboardingScreen(),
         '/welcome': (context) => const WelcomeScreen(),
+        '/catalog': (context) => const CatalogScreen(),
       },
     );
   }
