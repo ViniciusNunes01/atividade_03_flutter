@@ -45,8 +45,7 @@ Bem-vindo ao **Galeria Antes e Depois**, um aplicativo Flutter para visualizaç�
 Este projeto foi desenvolvido como parte do aprendizado em Flutter, utilizando os seguintes recursos:
 
 - [Documentação Oficial do Flutter](https://flutter.dev/docs)
-- [Curso de Flutter - Udemy](https://www.udemy.com/course/flutter-para-iniciantes/)
-- [Flutter Community - Medium](https://medium.com/flutter)
+
 
 ---
 
@@ -67,13 +66,14 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 - **Flutter:** SDK para desenvolvimento de aplicativos móveis.
 - **Dart:** Linguagem de programação usada pelo Flutter.
 - **Provider:** Para gerenciamento de estado.
-- **CachedNetworkImage:** Para exibição de imagens com cache.
+
 
 ---
 
-## 👤 Autor
+## 👤 Autores
 
-**Seu Nome** - Desenvolvedor Flutter
+**Mateus Bieger Marques* - Estudante de Ciências da Computação na UTFPR.**
+**Vinicius Martins Nunes* - Estudante de Ciências da Computação na UTFPR.**
 
 ---
 
