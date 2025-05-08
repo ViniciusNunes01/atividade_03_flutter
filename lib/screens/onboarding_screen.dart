@@ -15,7 +15,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     {
       'icon': Icons.explore,
       'title': 'Explore Produtos',
-      'subtitle': 'Veja itens em 360° com imagens antes e depois.',
+      'subtitle': 'Veja itens com imagens de antes e depois.',
     },
     {
       'icon': Icons.favorite,
@@ -33,7 +33,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     if (_currentPage < _pages.length - 1) {
       _controller.nextPage(duration: const Duration(milliseconds: 300), curve: Curves.ease);
     } else {
-      Navigator.pushReplacementNamed(context, '/welcome');
+      Navigator.pushReplacementNamed(context, '/');
     }
   }
 

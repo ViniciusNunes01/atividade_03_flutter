@@ -31,7 +31,7 @@ class _FlutterSplashScreenState extends State<FlutterSplashScreen> {
             Icon(Icons.photo_camera_rounded, size: 64, color: Theme.of(context).colorScheme.primary),
             const SizedBox(height: 20),
             Text(
-              'Galeria Interativa 360°',
+              'Galeria Antes e Depois',
               style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     color: isDark ? Colors.white : Colors.black,
                   ),

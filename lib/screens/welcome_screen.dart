@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widgets/app_drawer.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -9,7 +10,11 @@ class WelcomeScreen extends StatelessWidget {
     final isDark = theme.brightness == Brightness.dark;
 
     return Scaffold(
-      backgroundColor: theme.scaffoldBackgroundColor,
+      appBar: AppBar(
+        backgroundColor: Theme.of(context).colorScheme.primary,
+        title: const Text('Bem-vindo'),
+      ),
+      drawer: const AppDrawer(),
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(32),
@@ -23,11 +28,9 @@ class WelcomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: 24),
               Text(
-                'Bem-vindo à Galeria Interativa 360°',
-                style: theme.textTheme.headlineSmall?.copyWith(
-                  fontWeight: FontWeight.bold,
-                ),
+                'Bem-vindo à Galeria Antes e Depois',
                 textAlign: TextAlign.center,
+                style: theme.textTheme.titleLarge,
               ),
               const SizedBox(height: 16),
               Text(
